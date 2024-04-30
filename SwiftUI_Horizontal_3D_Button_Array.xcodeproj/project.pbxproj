@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6686C782BDFFB47003DEB71 /* H3DButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6686C772BDFFB47003DEB71 /* H3DButtonStack.swift */; };
+		F6686C7A2BDFFBAE003DEB71 /* H3DPlaneViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6686C792BDFFBAE003DEB71 /* H3DPlaneViewConfig.swift */; };
+		F6686C7C2BDFFC96003DEB71 /* H3DButtonStack+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6686C7B2BDFFC96003DEB71 /* H3DButtonStack+ViewModel.swift */; };
+		F6686C7E2BDFFCA2003DEB71 /* H3DButtonStack+ViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6686C7D2BDFFCA2003DEB71 /* H3DButtonStack+ViewConfig.swift */; };
+		F6686C802BDFFE3A003DEB71 /* GlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6686C7F2BDFFE3A003DEB71 /* GlassView.swift */; };
 		F6DB250D2BDAEF840040AB8A /* SwiftUI_Horizontal_3D_Button_ArrayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB250C2BDAEF840040AB8A /* SwiftUI_Horizontal_3D_Button_ArrayApp.swift */; };
 		F6DB250F2BDAEF840040AB8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB250E2BDAEF840040AB8A /* ContentView.swift */; };
 		F6DB25112BDAEF880040AB8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DB25102BDAEF880040AB8A /* Assets.xcassets */; };
 		F6DB25142BDAEF880040AB8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DB25132BDAEF880040AB8A /* Preview Assets.xcassets */; };
+		F6DB25232BDFA8AD0040AB8A /* RoundImageButton+ViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB25202BDFA8AD0040AB8A /* RoundImageButton+ViewConfig.swift */; };
+		F6DB25242BDFA8AD0040AB8A /* RoundImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB25212BDFA8AD0040AB8A /* RoundImageButton.swift */; };
+		F6DB25252BDFA8AD0040AB8A /* RoundImageButton+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DB25222BDFA8AD0040AB8A /* RoundImageButton+ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6686C772BDFFB47003DEB71 /* H3DButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H3DButtonStack.swift; sourceTree = "<group>"; };
+		F6686C792BDFFBAE003DEB71 /* H3DPlaneViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H3DPlaneViewConfig.swift; sourceTree = "<group>"; };
+		F6686C7B2BDFFC96003DEB71 /* H3DButtonStack+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H3DButtonStack+ViewModel.swift"; sourceTree = "<group>"; };
+		F6686C7D2BDFFCA2003DEB71 /* H3DButtonStack+ViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H3DButtonStack+ViewConfig.swift"; sourceTree = "<group>"; };
+		F6686C7F2BDFFE3A003DEB71 /* GlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassView.swift; sourceTree = "<group>"; };
 		F6DB25092BDAEF840040AB8A /* SwiftUI_Horizontal_3D_Button_Array.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Horizontal_3D_Button_Array.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DB250C2BDAEF840040AB8A /* SwiftUI_Horizontal_3D_Button_ArrayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Horizontal_3D_Button_ArrayApp.swift; sourceTree = "<group>"; };
 		F6DB250E2BDAEF840040AB8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6DB25102BDAEF880040AB8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6DB25132BDAEF880040AB8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6DB25202BDFA8AD0040AB8A /* RoundImageButton+ViewConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RoundImageButton+ViewConfig.swift"; sourceTree = "<group>"; };
+		F6DB25212BDFA8AD0040AB8A /* RoundImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageButton.swift; sourceTree = "<group>"; };
+		F6DB25222BDFA8AD0040AB8A /* RoundImageButton+ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RoundImageButton+ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,14 @@
 			children = (
 				F6DB250C2BDAEF840040AB8A /* SwiftUI_Horizontal_3D_Button_ArrayApp.swift */,
 				F6DB250E2BDAEF840040AB8A /* ContentView.swift */,
+				F6DB25212BDFA8AD0040AB8A /* RoundImageButton.swift */,
+				F6DB25202BDFA8AD0040AB8A /* RoundImageButton+ViewConfig.swift */,
+				F6DB25222BDFA8AD0040AB8A /* RoundImageButton+ViewModel.swift */,
+				F6686C772BDFFB47003DEB71 /* H3DButtonStack.swift */,
+				F6686C7B2BDFFC96003DEB71 /* H3DButtonStack+ViewModel.swift */,
+				F6686C7D2BDFFCA2003DEB71 /* H3DButtonStack+ViewConfig.swift */,
+				F6686C792BDFFBAE003DEB71 /* H3DPlaneViewConfig.swift */,
+				F6686C7F2BDFFE3A003DEB71 /* GlassView.swift */,
 				F6DB25102BDAEF880040AB8A /* Assets.xcassets */,
 				F6DB25122BDAEF880040AB8A /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DB25242BDFA8AD0040AB8A /* RoundImageButton.swift in Sources */,
+				F6686C7E2BDFFCA2003DEB71 /* H3DButtonStack+ViewConfig.swift in Sources */,
+				F6686C7C2BDFFC96003DEB71 /* H3DButtonStack+ViewModel.swift in Sources */,
+				F6686C7A2BDFFBAE003DEB71 /* H3DPlaneViewConfig.swift in Sources */,
 				F6DB250F2BDAEF840040AB8A /* ContentView.swift in Sources */,
+				F6DB25232BDFA8AD0040AB8A /* RoundImageButton+ViewConfig.swift in Sources */,
 				F6DB250D2BDAEF840040AB8A /* SwiftUI_Horizontal_3D_Button_ArrayApp.swift in Sources */,
+				F6686C802BDFFE3A003DEB71 /* GlassView.swift in Sources */,
+				F6686C782BDFFB47003DEB71 /* H3DButtonStack.swift in Sources */,
+				F6DB25252BDFA8AD0040AB8A /* RoundImageButton+ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
